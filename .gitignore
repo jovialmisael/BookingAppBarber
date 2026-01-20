@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Framework specific
+# Expo
+.expo/
+*.jks
+*.p12
+*.key
+*.mobileprovision
+
+# Backend specific
+backend/dist/
